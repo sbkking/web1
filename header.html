@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berik | Portfolio</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <style>
+        .bg-green {
+            background-color: #28a745; 
+        }
+        .btn-green {
+            background-color: #28a745; 
+            border-color: #28a745; 
+        }
+        .btn-green:hover {
+            background-color: #218838; 
+            border-color: #1e7e34; 
+        }
+        .project-image {
+            width: 300px; 
+            height: auto; 
+        }
+        .project-container {
+            display: flex;
+            align-items: center;
+            justify-content: center; 
+            margin-bottom: 30px; 
+        }
+        .project-text {
+            margin-left: 20px; 
+        }
+        .project-image {
+        width: 300px; 
+        height: 200px; 
+        object-fit: cover; 
+        }
+
+    </style>
+</head>
+<body>
+    
+    <header class="bg-green text-white p-4">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand text-white" href="#">Berik Sharipov</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#about">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    
+    <main class="container my-5">
+        
+        <section id="about" class="text-center mb-5">
+            <h1>Hello, I'm Berik!</h1>
+            <p>Welcome to my portfolio. I am an Activist, passionate about making a difference in my community and beyond. Here's a little bit about me.</p>
+            <img src="photo.jpg" alt="Your Image" class="img-fluid rounded-circle" style="width: 200px; height: 200px;">
+        </section>
+
+        
+        <section id="projects" class="mt-5">
+            <h2 class="text-center mb-4">My Work</h2>
+            <div class="row justify-content-center"> 
+                
+                <div class="col-12 col-md-8 project-container">
+                    <img src="nomad games.jpeg" class="project-image" alt="Project 1">
+                    <div class="project-text">
+                        <h5 class="card-title">Nomad Games</h5>
+                        <p class="card-text">I was part of the press team at Nomad Games, covering all the events of this huge event. I went on Kokpar, Archery, Baige.</p>
+                        <a href="https://www.instagram.com/worldnomadgames2024/" target="_blank" class="btn btn-green">View Project</a>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-md-8 project-container">
+                    <img src="comic con.jpeg" class="project-image" alt="Project 2">
+                    <div class="project-text">
+                        <h5 class="card-title">Comic Con</h5>
+                        <p class="card-text">I was also part of the press team at Comic-Con, where I interviewed Yan Topless and the developers of Tiny Bunny Studio Band.</p>
+                        <a href="https://www.instagram.com/comicconastana/" target="_blank" class="btn btn-green">View Project</a>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-md-8 project-container">
+                    <img src="meimart.jpg" class="project-image" alt="Project 3">
+                    <div class="project-text">
+                        <h5 class="card-title">Meimart</h5>
+                        <p class="card-text">I am a member of the Aitu club and a partner of Meimart; they provide us with barter for food in exchange for our advertising.</p>
+                        <a href="https://www.instagram.com/meimart_astana/" target="_blank" class="btn btn-green">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    
+    <footer id="contact" class="bg-dark text-white text-center p-4">
+        <p>Contact me at: <a href="mailto:ssbk577@gmail.com" class="text-white">ssbk577@gmail.com</a></p>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/" target="_blank" class="text-white mx-2">LinkedIn</a>
+            <a href="https://github.com/" target="_blank" class="text-white mx-2">GitHub</a>
+        </div>
+    </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

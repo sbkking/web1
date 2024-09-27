@@ -1,0 +1,23 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+    font-weight: bold;
+}
+
+#about img {
+    border: 5px solid #007bff;
+}
+
+/* Footer Social Icons */
+.social-icons a {
+    text-decoration: none;
+    font-size: 20px;
+}
+.card-img-top {
+    width: 100%; /* Ширина изображения будет соответствовать ширине карточки */
+    height: 250px; /* Задаем фиксированную высоту изображения */
+    object-fit: cover; /* Изображение будет обрезано по краям, чтобы вписаться в заданные размеры */
+}
